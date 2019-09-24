@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>My Sait</title>
+	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')
+   </script>
+   <link rel="stylesheet" type="text/css" href="Secod.css">
+   <script type="text/javascript">
+   	var ind=0;
+   	var counter=0;
+   	function flos (el){
+   		ind++;
+   		el.innerHTML=ind;
+   	}
+   	function methd(form){
+         var name = form.user.value;
+         if(name == " "|| name == "" || name == "..."){
+         	alert("логин неверен");
+         	return;
+         }
+         else {
+         	alert("ваш логин: "+name);
+         }
+   	}
+   	function my_1 (){
+   		if(counter >=100){
+   			counter=0;
+   		}
+              counter++;
+              document.getElementById("count").innerHTML = counter;
+              setTimeout("my_1()", 10);
+   	}
+   </script>
+</head>
+<body onload="my_1()">
+	<div onmouseover="flos (this)" class="h" align="center"></div>
+	<form action="" method="post" name="test" onsubmit="methd (this)">
+		<label for="user">Username: </label>
+		<input type="text" name="user" placeholder=" ..." id="user"><br>
+		<label for="pass">Password:   </label>
+		<input type="password" name="pass" placeholder=" ..." id="pass"><br>
+		<input type="submit" name="sub" value="ok"><br>
+		<span id="count">-1</span>
+	</form>
+</body>
+</html>

@@ -1,0 +1,4 @@
+Поиск Git в: git
+Использование GIT 2.17.0 из git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git

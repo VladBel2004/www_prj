@@ -1,0 +1,221 @@
+[2018-05-25 21:17:57.409] [sharedprocess] [info] main {"machineId":"4fd368a50cab7edf1f493950ad5427e90b9ac12fca180ac55f52481aaf7b6541"}
+[2018-05-25 21:17:57.478] [sharedprocess] [info] Scanned user extensions: 2
+[2018-05-25 21:17:57.553] [sharedprocess] [info] Scanned system extensions: 69
+[2018-05-25 21:17:58.400] [sharedprocess] [info] Scanned user extensions: 2
+[2018-05-25 21:17:58.404] [sharedprocess] [info] Scanned user extensions: 2
+[2018-05-25 21:17:58.460] [sharedprocess] [info] Scanned system extensions: 69
+[2018-05-25 21:18:01.546] [sharedprocess] [info] Scanned user extensions: 2
+[2018-05-25 21:18:01.552] [sharedprocess] [info] Scanned user extensions: 2
+[2018-05-25 21:18:37.418] [sharedprocess] [info] Starting to clean up unused language packs.
+[2018-05-25 21:18:37.420] [sharedprocess] [info] Skipping directory 5f77b3817e710096dbd6e08c92e119ca.ru. Language pack still in use
+[2018-05-25 21:23:01.587] [sharedprocess] [info] Scanned user extensions: 2
+[2018-05-25 21:28:01.620] [sharedprocess] [info] Scanned user extensions: 2
+[2018-05-25 21:33:01.642] [sharedprocess] [info] Scanned user extensions: 2
+[2018-05-25 21:38:01.986] [sharedprocess] [info] Scanned user extensions: 2
+[2018-05-25 21:38:43.638] [sharedprocess] [info] main {"machineId":"4fd368a50cab7edf1f493950ad5427e90b9ac12fca180ac55f52481aaf7b6541"}
+[2018-05-25 21:38:43.686] [sharedprocess] [info] Scanned user extensions: 2
+[2018-05-25 21:38:43.759] [sharedprocess] [info] Scanned system extensions: 69
+[2018-05-25 21:38:44.465] [sharedprocess] [info] Scanned user extensions: 2
+[2018-05-25 21:38:44.468] [sharedprocess] [info] Scanned user extensions: 2
+[2018-05-25 21:38:44.515] [sharedprocess] [info] Scanned system extensions: 69
+[2018-05-25 21:38:47.610] [sharedprocess] [info] Scanned user extensions: 2
+[2018-05-25 21:38:47.617] [sharedprocess] [info] Scanned user extensions: 2
+[2018-05-25 21:39:23.645] [sharedprocess] [info] Starting to clean up unused language packs.
+[2018-05-25 21:39:23.647] [sharedprocess] [info] Skipping directory 5f77b3817e710096dbd6e08c92e119ca.ru. Language pack still in use
+[2018-05-25 21:43:47.644] [sharedprocess] [info] Scanned user extensions: 2
+[2018-05-25 21:48:47.663] [sharedprocess] [info] Scanned user extensions: 2
+[2018-05-25 21:53:47.680] [sharedprocess] [info] Scanned user extensions: 2
+[2018-05-25 21:58:47.734] [sharedprocess] [info] Scanned user extensions: 2
+[2018-05-25 22:03:47.752] [sharedprocess] [info] Scanned user extensions: 2
+[2018-05-25 22:08:48.417] [sharedprocess] [info] Scanned user extensions: 2
+[2018-05-25 22:13:48.436] [sharedprocess] [info] Scanned user extensions: 2
+[2018-05-25 22:18:48.454] [sharedprocess] [info] Scanned user extensions: 2
+[2018-05-25 22:23:48.474] [sharedprocess] [info] Scanned user extensions: 2
+[2018-05-25 22:24:15.892] [sharedprocess] [info] Scanned user extensions: 2
+[2018-05-25 22:24:15.896] [sharedprocess] [info] Scanned user extensions: 2
+[2018-05-25 22:24:15.904] [sharedprocess] [info] Scanned user extensions: 2
+[2018-05-25 22:24:16.528] [sharedprocess] [info] Scanned system extensions: 69
+[2018-05-25 22:24:16.534] [sharedprocess] [info] Scanned system extensions: 69
+[2018-05-25 22:28:48.492] [sharedprocess] [info] Scanned user extensions: 2
+[2018-05-25 22:33:48.510] [sharedprocess] [info] Scanned user extensions: 2
+[2018-05-25 22:38:48.530] [sharedprocess] [info] Scanned user extensions: 2
+[2018-05-25 22:43:48.548] [sharedprocess] [info] Scanned user extensions: 2
+[2018-05-25 22:48:48.568] [sharedprocess] [info] Scanned user extensions: 2
+[2018-05-25 22:53:48.585] [sharedprocess] [info] Scanned user extensions: 2
+[2018-05-25 22:58:48.609] [sharedprocess] [info] Scanned user extensions: 2
+[2018-05-25 22:59:45.815] [sharedprocess] [info] Installing extension: twig
+[2018-05-25 22:59:45.822] [sharedprocess] [info] Scanned user extensions: 2
+[2018-05-25 22:59:59.686] [sharedprocess] [info] Downloaded extension: twig
+[2018-05-25 22:59:59.719] [sharedprocess] [info] Extracted extension to /root/.vscode/extensions/.whatwedo.twig-1.0.2: whatwedo.twig-1.0.2
+[2018-05-25 22:59:59.719] [sharedprocess] [info] Renamed to /root/.vscode/extensions/whatwedo.twig-1.0.2
+[2018-05-25 22:59:59.719] [sharedprocess] [info] Installation completed. whatwedo.twig-1.0.2
+[2018-05-25 22:59:59.758] [sharedprocess] [info] Extensions installed successfully: whatwedo.twig
+[2018-05-25 22:59:59.893] [sharedprocess] [info] Scanned user extensions: 3
+[2018-05-25 22:59:59.917] [sharedprocess] [info] Scanned system extensions: 69
+[2018-05-25 23:00:10.937] [sharedprocess] [info] Scanned user extensions: 3
+[2018-05-25 23:00:10.941] [sharedprocess] [info] Scanned user extensions: 3
+[2018-05-25 23:00:10.951] [sharedprocess] [info] Scanned user extensions: 3
+[2018-05-25 23:00:10.974] [sharedprocess] [info] Scanned user extensions: 3
+[2018-05-25 23:00:10.976] [sharedprocess] [info] Scanned user extensions: 3
+[2018-05-25 23:00:11.061] [sharedprocess] [info] Scanned system extensions: 69
+[2018-05-25 23:00:11.068] [sharedprocess] [info] Scanned system extensions: 69
+[2018-05-25 23:00:11.076] [sharedprocess] [info] Scanned system extensions: 69
+[2018-05-25 23:00:14.152] [sharedprocess] [info] Scanned user extensions: 3
+[2018-05-25 23:00:14.160] [sharedprocess] [info] Scanned user extensions: 3
+[2018-05-25 23:00:24.224] [sharedprocess] [info] Installing extension: sass-indented
+[2018-05-25 23:00:24.236] [sharedprocess] [info] Scanned user extensions: 3
+[2018-05-25 23:00:34.853] [sharedprocess] [info] Downloaded extension: sass-indented
+[2018-05-25 23:00:34.897] [sharedprocess] [info] Extracted extension to /root/.vscode/extensions/.robinbentley.sass-indented-1.4.9: robinbentley.sass-indented-1.4.9
+[2018-05-25 23:00:34.897] [sharedprocess] [info] Renamed to /root/.vscode/extensions/robinbentley.sass-indented-1.4.9
+[2018-05-25 23:00:34.897] [sharedprocess] [info] Installation completed. robinbentley.sass-indented-1.4.9
+[2018-05-25 23:00:34.928] [sharedprocess] [info] Extensions installed successfully: robinbentley.sass-indented
+[2018-05-25 23:00:35.061] [sharedprocess] [info] Scanned user extensions: 4
+[2018-05-25 23:00:35.086] [sharedprocess] [info] Scanned system extensions: 69
+[2018-05-25 23:00:41.221] [sharedprocess] [info] Scanned user extensions: 4
+[2018-05-25 23:00:41.229] [sharedprocess] [info] Scanned user extensions: 4
+[2018-05-25 23:00:41.236] [sharedprocess] [info] Scanned user extensions: 4
+[2018-05-25 23:00:41.254] [sharedprocess] [info] Scanned user extensions: 4
+[2018-05-25 23:00:41.256] [sharedprocess] [info] Scanned user extensions: 4
+[2018-05-25 23:00:41.352] [sharedprocess] [info] Scanned system extensions: 69
+[2018-05-25 23:00:41.357] [sharedprocess] [info] Scanned system extensions: 69
+[2018-05-25 23:00:41.364] [sharedprocess] [info] Scanned system extensions: 69
+[2018-05-25 23:00:44.416] [sharedprocess] [info] Scanned user extensions: 4
+[2018-05-25 23:00:44.422] [sharedprocess] [info] Scanned user extensions: 4
+[2018-05-25 23:02:19.215] [sharedprocess] [info] Scanned user extensions: 4
+[2018-05-25 23:02:19.218] [sharedprocess] [info] Scanned user extensions: 4
+[2018-05-25 23:02:19.279] [sharedprocess] [info] Scanned system extensions: 69
+[2018-05-25 23:02:19.284] [sharedprocess] [info] Scanned system extensions: 69
+[2018-05-25 23:02:50.400] [sharedprocess] [info] Installing extension: phpserver
+[2018-05-25 23:02:50.411] [sharedprocess] [info] Scanned user extensions: 4
+[2018-05-25 23:02:55.664] [sharedprocess] [info] Downloaded extension: phpserver
+[2018-05-25 23:02:55.718] [sharedprocess] [info] Extracted extension to /root/.vscode/extensions/.brapifra.phpserver-2.4.4: brapifra.phpserver-2.4.4
+[2018-05-25 23:02:55.718] [sharedprocess] [info] Renamed to /root/.vscode/extensions/brapifra.phpserver-2.4.4
+[2018-05-25 23:02:55.718] [sharedprocess] [info] Installation completed. brapifra.phpserver-2.4.4
+[2018-05-25 23:02:55.769] [sharedprocess] [info] Extensions installed successfully: brapifra.phpserver
+[2018-05-25 23:02:55.906] [sharedprocess] [info] Scanned user extensions: 5
+[2018-05-25 23:02:55.930] [sharedprocess] [info] Scanned system extensions: 69
+[2018-05-25 23:03:00.727] [sharedprocess] [info] Scanned user extensions: 5
+[2018-05-25 23:03:00.734] [sharedprocess] [info] Scanned user extensions: 5
+[2018-05-25 23:03:00.741] [sharedprocess] [info] Scanned user extensions: 5
+[2018-05-25 23:03:00.767] [sharedprocess] [info] Scanned user extensions: 5
+[2018-05-25 23:03:00.769] [sharedprocess] [info] Scanned user extensions: 5
+[2018-05-25 23:03:00.880] [sharedprocess] [info] Scanned system extensions: 69
+[2018-05-25 23:03:00.886] [sharedprocess] [info] Scanned system extensions: 69
+[2018-05-25 23:03:00.894] [sharedprocess] [info] Scanned system extensions: 69
+[2018-05-25 23:03:03.872] [sharedprocess] [info] Scanned user extensions: 5
+[2018-05-25 23:03:03.880] [sharedprocess] [info] Scanned user extensions: 5
+[2018-05-25 23:04:44.096] [sharedprocess] [info] Installing extension: plsql
+[2018-05-25 23:04:44.102] [sharedprocess] [info] Scanned user extensions: 5
+[2018-05-25 23:04:45.814] [sharedprocess] [info] Downloaded extension: plsql
+[2018-05-25 23:04:45.832] [sharedprocess] [info] Extracted extension to /root/.vscode/extensions/.casian.plsql-0.0.3: casian.plsql-0.0.3
+[2018-05-25 23:04:45.832] [sharedprocess] [info] Renamed to /root/.vscode/extensions/casian.plsql-0.0.3
+[2018-05-25 23:04:45.832] [sharedprocess] [info] Installation completed. casian.plsql-0.0.3
+[2018-05-25 23:04:45.870] [sharedprocess] [info] Extensions installed successfully: casian.plsql
+[2018-05-25 23:04:46.007] [sharedprocess] [info] Scanned user extensions: 6
+[2018-05-25 23:04:46.035] [sharedprocess] [info] Scanned system extensions: 69
+[2018-05-25 23:04:51.508] [sharedprocess] [info] Scanned user extensions: 6
+[2018-05-25 23:04:51.518] [sharedprocess] [info] Scanned user extensions: 6
+[2018-05-25 23:04:51.534] [sharedprocess] [info] Scanned user extensions: 6
+[2018-05-25 23:04:51.538] [sharedprocess] [info] Scanned user extensions: 6
+[2018-05-25 23:04:51.540] [sharedprocess] [info] Scanned user extensions: 6
+[2018-05-25 23:04:51.607] [sharedprocess] [info] Scanned system extensions: 69
+[2018-05-25 23:04:51.614] [sharedprocess] [info] Scanned system extensions: 69
+[2018-05-25 23:04:51.623] [sharedprocess] [info] Scanned system extensions: 69
+[2018-05-25 23:04:54.629] [sharedprocess] [info] Scanned user extensions: 6
+[2018-05-25 23:04:54.636] [sharedprocess] [info] Scanned user extensions: 6
+[2018-05-25 23:05:25.631] [sharedprocess] [info] Scanned user extensions: 6
+[2018-05-25 23:05:25.643] [sharedprocess] [info] Scanned user extensions: 6
+[2018-05-25 23:05:25.684] [sharedprocess] [info] Scanned system extensions: 69
+[2018-05-25 23:05:25.693] [sharedprocess] [info] Scanned system extensions: 69
+[2018-05-25 23:05:31.192] [sharedprocess] [info] Installing extension: php-intellisense
+[2018-05-25 23:05:31.204] [sharedprocess] [info] Scanned user extensions: 6
+[2018-05-25 23:08:03.038] [sharedprocess] [info] Downloaded extension: php-intellisense
+[2018-05-25 23:08:04.870] [sharedprocess] [info] Extracted extension to /root/.vscode/extensions/.felixfbecker.php-intellisense-2.3.1: felixfbecker.php-intellisense-2.3.1
+[2018-05-25 23:08:04.870] [sharedprocess] [info] Renamed to /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.1
+[2018-05-25 23:08:04.870] [sharedprocess] [info] Installation completed. felixfbecker.php-intellisense-2.3.1
+[2018-05-25 23:08:04.952] [sharedprocess] [info] Extensions installed successfully: felixfbecker.php-intellisense
+[2018-05-25 23:08:05.102] [sharedprocess] [info] Scanned user extensions: 7
+[2018-05-25 23:08:05.123] [sharedprocess] [info] Scanned system extensions: 69
+[2018-05-25 23:08:09.486] [sharedprocess] [info] Scanned user extensions: 7
+[2018-05-25 23:08:09.493] [sharedprocess] [info] Scanned user extensions: 7
+[2018-05-25 23:08:09.498] [sharedprocess] [info] Scanned user extensions: 7
+[2018-05-25 23:08:09.514] [sharedprocess] [info] Scanned user extensions: 7
+[2018-05-25 23:08:09.515] [sharedprocess] [info] Scanned user extensions: 7
+[2018-05-25 23:08:09.556] [sharedprocess] [info] Scanned system extensions: 69
+[2018-05-25 23:08:09.560] [sharedprocess] [info] Scanned system extensions: 69
+[2018-05-25 23:08:09.567] [sharedprocess] [info] Scanned system extensions: 69
+[2018-05-25 23:08:12.623] [sharedprocess] [info] Scanned user extensions: 7
+[2018-05-25 23:08:12.629] [sharedprocess] [info] Scanned user extensions: 7
+[2018-05-25 23:10:10.822] [sharedprocess] [info] Installing extension: code-runner
+[2018-05-25 23:10:10.843] [sharedprocess] [info] Scanned user extensions: 7
+[2018-05-25 23:10:18.398] [sharedprocess] [info] Downloaded extension: code-runner
+[2018-05-25 23:10:18.564] [sharedprocess] [info] Extracted extension to /root/.vscode/extensions/.formulahendry.code-runner-0.9.3: formulahendry.code-runner-0.9.3
+[2018-05-25 23:10:18.564] [sharedprocess] [info] Renamed to /root/.vscode/extensions/formulahendry.code-runner-0.9.3
+[2018-05-25 23:10:18.564] [sharedprocess] [info] Installation completed. formulahendry.code-runner-0.9.3
+[2018-05-25 23:10:18.644] [sharedprocess] [info] Extensions installed successfully: formulahendry.code-runner
+[2018-05-25 23:10:18.795] [sharedprocess] [info] Scanned user extensions: 8
+[2018-05-25 23:10:18.828] [sharedprocess] [info] Scanned system extensions: 69
+[2018-05-25 23:10:36.230] [sharedprocess] [info] Scanned user extensions: 8
+[2018-05-25 23:10:36.234] [sharedprocess] [info] Scanned user extensions: 8
+[2018-05-25 23:10:36.247] [sharedprocess] [info] Scanned user extensions: 8
+[2018-05-25 23:10:36.272] [sharedprocess] [info] Scanned user extensions: 8
+[2018-05-25 23:10:36.275] [sharedprocess] [info] Scanned user extensions: 8
+[2018-05-25 23:10:36.399] [sharedprocess] [info] Scanned system extensions: 69
+[2018-05-25 23:10:36.411] [sharedprocess] [info] Scanned system extensions: 69
+[2018-05-25 23:10:36.420] [sharedprocess] [info] Scanned system extensions: 69
+[2018-05-25 23:10:39.384] [sharedprocess] [info] Scanned user extensions: 8
+[2018-05-25 23:10:39.386] [sharedprocess] [info] Scanned user extensions: 8
+[2018-05-25 23:10:46.844] [sharedprocess] [info] Installing extension: vscode-intelephense-client
+[2018-05-25 23:10:46.858] [sharedprocess] [info] Scanned user extensions: 8
+[2018-05-25 23:11:01.883] [sharedprocess] [info] Installing extension: php-debug
+[2018-05-25 23:11:01.892] [sharedprocess] [info] Scanned user extensions: 8
+[2018-05-25 23:11:52.484] [sharedprocess] [info] Downloaded extension: vscode-intelephense-client
+[2018-05-25 23:11:53.218] [sharedprocess] [info] Extracted extension to /root/.vscode/extensions/.bmewburn.vscode-intelephense-client-0.8.8: bmewburn.vscode-intelephense-client-0.8.8
+[2018-05-25 23:11:53.218] [sharedprocess] [info] Renamed to /root/.vscode/extensions/bmewburn.vscode-intelephense-client-0.8.8
+[2018-05-25 23:11:53.218] [sharedprocess] [info] Installation completed. bmewburn.vscode-intelephense-client-0.8.8
+[2018-05-25 23:11:53.266] [sharedprocess] [info] Extensions installed successfully: bmewburn.vscode-intelephense-client
+[2018-05-25 23:11:53.415] [sharedprocess] [info] Scanned user extensions: 9
+[2018-05-25 23:11:53.440] [sharedprocess] [info] Scanned system extensions: 69
+[2018-05-25 23:11:56.274] [sharedprocess] [info] Downloaded extension: php-debug
+[2018-05-25 23:11:56.847] [sharedprocess] [info] Extracted extension to /root/.vscode/extensions/.felixfbecker.php-debug-1.12.3: felixfbecker.php-debug-1.12.3
+[2018-05-25 23:11:56.847] [sharedprocess] [info] Renamed to /root/.vscode/extensions/felixfbecker.php-debug-1.12.3
+[2018-05-25 23:11:56.847] [sharedprocess] [info] Installation completed. felixfbecker.php-debug-1.12.3
+[2018-05-25 23:11:56.890] [sharedprocess] [info] Extensions installed successfully: felixfbecker.php-debug
+[2018-05-25 23:11:57.037] [sharedprocess] [info] Scanned user extensions: 10
+[2018-05-25 23:11:57.066] [sharedprocess] [info] Scanned system extensions: 69
+[2018-05-25 23:12:12.999] [sharedprocess] [info] Scanned user extensions: 10
+[2018-05-25 23:12:13.009] [sharedprocess] [info] Scanned user extensions: 10
+[2018-05-25 23:12:13.019] [sharedprocess] [info] Scanned user extensions: 10
+[2018-05-25 23:12:13.046] [sharedprocess] [info] Scanned user extensions: 10
+[2018-05-25 23:12:13.047] [sharedprocess] [info] Scanned user extensions: 10
+[2018-05-25 23:12:13.147] [sharedprocess] [info] Scanned system extensions: 69
+[2018-05-25 23:12:13.157] [sharedprocess] [info] Scanned system extensions: 69
+[2018-05-25 23:12:13.165] [sharedprocess] [info] Scanned system extensions: 69
+[2018-05-25 23:12:16.170] [sharedprocess] [info] Scanned user extensions: 10
+[2018-05-25 23:12:16.184] [sharedprocess] [info] Scanned user extensions: 10
+[2018-05-25 23:12:36.616] [sharedprocess] [info] Installing extension: vscode-html-css
+[2018-05-25 23:12:36.628] [sharedprocess] [info] Scanned user extensions: 10
+[2018-05-25 23:14:14.078] [sharedprocess] [info] Downloaded extension: vscode-html-css
+[2018-05-25 23:14:14.708] [sharedprocess] [info] Extracted extension to /root/.vscode/extensions/.ecmel.vscode-html-css-0.2.0: ecmel.vscode-html-css-0.2.0
+[2018-05-25 23:14:14.708] [sharedprocess] [info] Renamed to /root/.vscode/extensions/ecmel.vscode-html-css-0.2.0
+[2018-05-25 23:14:14.708] [sharedprocess] [info] Installation completed. ecmel.vscode-html-css-0.2.0
+[2018-05-25 23:14:14.762] [sharedprocess] [info] Extensions installed successfully: ecmel.vscode-html-css
+[2018-05-25 23:14:14.918] [sharedprocess] [info] Scanned user extensions: 11
+[2018-05-25 23:14:14.934] [sharedprocess] [info] Scanned system extensions: 69
+[2018-05-25 23:14:37.388] [sharedprocess] [info] Scanned user extensions: 11
+[2018-05-25 23:14:37.391] [sharedprocess] [info] Scanned user extensions: 11
+[2018-05-25 23:14:37.395] [sharedprocess] [info] Scanned user extensions: 11
+[2018-05-25 23:14:37.403] [sharedprocess] [info] Scanned user extensions: 11
+[2018-05-25 23:14:37.406] [sharedprocess] [info] Scanned user extensions: 11
+[2018-05-25 23:14:37.508] [sharedprocess] [info] Scanned system extensions: 69
+[2018-05-25 23:14:37.519] [sharedprocess] [info] Scanned system extensions: 69
+[2018-05-25 23:14:37.528] [sharedprocess] [info] Scanned system extensions: 69
+[2018-05-25 23:14:40.496] [sharedprocess] [info] Scanned user extensions: 11
+[2018-05-25 23:14:40.499] [sharedprocess] [info] Scanned user extensions: 11
+[2018-05-25 23:19:40.520] [sharedprocess] [info] Scanned user extensions: 11
+[2018-05-25 23:24:40.549] [sharedprocess] [info] Scanned user extensions: 11
+[2018-05-25 23:29:40.574] [sharedprocess] [info] Scanned user extensions: 11
+[2018-05-25 23:34:40.590] [sharedprocess] [info] Scanned user extensions: 11
+[2018-05-25 23:39:46.750] [sharedprocess] [info] Scanned user extensions: 11
+[2018-05-25 23:44:46.774] [sharedprocess] [info] Scanned user extensions: 11
+[2018-05-25 23:49:46.796] [sharedprocess] [info] Scanned user extensions: 11

@@ -1,0 +1,56 @@
+[2018-05-25 21:26:13.107] [renderer1] [error] Не удается выполнить запись в файл параметров пользователя. Откройте параметры пользователя, исправьте ошибки и предупреждения и повторите попытку. : Error: Не удается выполнить запись в файл параметров пользователя. Откройте параметры пользователя, исправьте ошибки и предупреждения и повторите попытку. 
+    at new t (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:4023:118)
+    at e.wrapError (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:4026:978)
+    at file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:4031:242
+    at Object.g [as _notify] (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:146:807)
+    at Object.enter (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:150:85)
+    at n.Class.derive._creator._run (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:151:896)
+    at n.Class.derive._creator._completed (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:151:337)
+    at n.Class.derive._creator.then (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:153:366)
+    at Object.enter (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:149:184)
+    at n.Class.derive._creator._run (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:151:896)
+    at n.Class.derive._creator._setCompleteValue (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:151:590)
+    at Object.g [as _notify] (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:146:787)
+    at Object.enter (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:150:85)
+    at n.Class.derive._creator._run (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:151:896)
+    at n.Class.derive._creator._completed (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:151:337)
+    at n.Class.define.cancel.then (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:153:366)
+    at Object.enter (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:149:184)
+    at n.Class.derive._creator._run (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:151:896)
+    at n.Class.derive._creator._setCompleteValue (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:151:590)
+    at Object.g [as _notify] (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:146:787)
+    at Object.enter (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:150:85)
+    at n.Class.derive._oncancel._run (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:151:896)
+    at n.Class.derive._oncancel._completed (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:151:337)
+    at file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:193:157
+    at file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:280:594
+    at /usr/share/code/resources/app/node_modules.asar/graceful-fs/polyfills.js:287:18
+    at FSReqWrap.oncomplete (original-fs.js:114:15)
+[2018-05-25 21:26:25.841] [renderer1] [error] Не удается выполнить запись в файл параметров пользователя. Откройте параметры пользователя, исправьте ошибки и предупреждения и повторите попытку. : Error: Не удается выполнить запись в файл параметров пользователя. Откройте параметры пользователя, исправьте ошибки и предупреждения и повторите попытку. 
+    at new t (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:4023:118)
+    at e.wrapError (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:4026:978)
+    at file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:4031:242
+    at Object.g [as _notify] (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:146:807)
+    at Object.enter (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:150:85)
+    at n.Class.derive._creator._run (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:151:896)
+    at n.Class.derive._creator._completed (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:151:337)
+    at n.Class.derive._creator.then (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:153:366)
+    at Object.enter (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:149:184)
+    at n.Class.derive._creator._run (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:151:896)
+    at n.Class.derive._creator._setCompleteValue (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:151:590)
+    at Object.g [as _notify] (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:146:787)
+    at Object.enter (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:150:85)
+    at n.Class.derive._creator._run (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:151:896)
+    at n.Class.derive._creator._completed (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:151:337)
+    at n.Class.define.cancel.then (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:153:366)
+    at Object.enter (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:149:184)
+    at n.Class.derive._creator._run (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:151:896)
+    at n.Class.derive._creator._setCompleteValue (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:151:590)
+    at Object.g [as _notify] (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:146:787)
+    at Object.enter (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:150:85)
+    at n.Class.derive._oncancel._run (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:151:896)
+    at n.Class.derive._oncancel._completed (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:151:337)
+    at file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:193:157
+    at file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:280:594
+    at /usr/share/code/resources/app/node_modules.asar/graceful-fs/polyfills.js:287:18
+    at FSReqWrap.oncomplete (original-fs.js:114:15)

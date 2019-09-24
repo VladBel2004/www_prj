@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Тестирование — Brainoom®</title>
+    <meta name="keywords" content="система обучения, система тестирования, учебный курс, корпоративное обучение, LMS, СДО, система управления обучением">
+    <meta name="description" content="Brainoom включает в себя систему тестирования и систему обучения. В считанные минуты вы сможете провести мониторинг знаний или учебный курс.">
+    <meta property="og:title" content="Тестирование — Brainoom®">
+    <meta property="og:url" content="https://school127.brainoom.com/testing/">
+    <meta property="og:description" content="Brainoom включает в себя систему тестирования и систему обучения. В считанные минуты вы сможете провести мониторинг знаний или учебный курс.">
+    <link type="text/css" href="https://school127.brainoom.com/css/overcast/jquery-ui-1.9.2.custom.min.css" rel="stylesheet" media="screen">
+    <link type="text/css" href="https://school127.brainoom.com/css/overcast/fullcalendar.css" rel="stylesheet" media="screen">
+    <link type="text/css" href="https://school127.brainoom.com/css/overcast/ngTagEditor.css?v=3" rel="stylesheet" media="screen">
+    <link type="text/css" href="https://school127.brainoom.com/css/colorbox/colorbox.css" rel="stylesheet" media="screen">
+    <link type="text/css" href="https://school127.brainoom.com/css/tpl_2_main_wide.min.css?v=180903" rel="stylesheet" media="screen">
+    <link type="text/css" href="https://school127.brainoom.com/jplayer/skins/jplayer.blue.monday.css?v=140113" rel="stylesheet">
+    <script src="//vk.com/js/api/openapi.js?96"></script>
+    <link rel="shortcut icon" href="/favicon.ico?v=6b59d09c622b" type="image/x-icon">
+    <script src="https://school127.brainoom.com/js/vendor/jquery-1.8.2.min.js"></script>
+    <script src="https://school127.brainoom.com/jplayer/jquery.jplayer.min.js"></script>
+    <script>
+        var jplayers_testing = [];
+        var language = 'ru';
+    </script>
+    <script src="https://school127.brainoom.com/js/vendor/jquery-ui-1.9.2.min.js"></script>
+    <script src="https://school127.brainoom.com/js/vendor/jquery-ui-timepicker-addon.js"></script>
+    <script src="https://school127.brainoom.com/js/vendor/jquery.colorbox-min.js"></script>
+    <script src="https://school127.brainoom.com/js/vendor/jquery-scrolltofixed-min.js"></script>
+    <script>
+        (window.Image ? (new Image()) : document.createElement('img')).src = location.protocol + '//vk.com/rtrg?r=zfJjMXzqHSP2NyexVhzvqvMtTlPqorecjwpC/kEAfZ9BfNLcMKaSf12uNeywYodSRH/ONcKUh4T8rUZH43LJzr6vM4OPvxqkDwi*tcpUFpwCLWAqltN24ShDPwTFi3fwfZnXQP2HE*r8P/k*y*sD2YKxbw80/rczQ2XW*wtTdxM-&pixel_id=1000026069';
+    </script>
+</head>
+
+<body data-spy="scroll" data-target=".subnav" id="top" class=" brainoom_design_2">
+    <div id="basic_wrap" class="page-container" style=" ">
+        <div class="header__top_menu header__top_menu-mini">
+            <div class="container">
+                <div class="pull-right"> <img style="height: 40px;" src="/upload/sites/logo/cache/origin_4407.png/size2_4407.png" alt="МАОУ «СОШ № 127» г. Перми"> </div>
+                <div class="logo pull-left" style="width:48px; height: 40px;">
+                    <a href="/"><img src="/img/brainoom/logo_mini.png" alt="Brainoom®" style="height: 40px; top: 0;"></a>
+                </div>
+                <div class="navbar" style="padding-left:0; margin-bottom:0;">
+                    <ul class="nav" style="margin: 0 0 0 20px;">
+                        <li class=""><a href="/works/" class="">Задания</a></li>
+                        <li class=""><a href="/library/" class="">Библиотека</a></li>
+                        <li class=""><a href="/tests/" class="">Тесты</a></li>
+                        <li class=""><a href="/teachers/" class="">Преподаватели</a></li>
+                        <li class=""><a href="/people/" class="">Одноклассники</a></li>
+                        <li class=""><a href="/profile/" class="">Профиль</a></li>
+                        <li class=""><a href="/logout/">Выйти</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="wrap" class="basic_page container subnav-mini" style="padding-top: 15px;">
+            <div id="testing_container">
+                <script>
+                    var is_question = true;
+                    var time = 20;
+                    var question_time = 1;
+                    var question_time_limit_sec = 0;
+                </script>
+                <div id="question_panel" style="">
+                    <div class="head">
+                        <h3 class="pull-left"> Вопрос 1 из 19 </h3>
+                        <div class="pull-right">
+                            <h4 style="text-align: right; "><span class="time test_time time_limit time_limit_1">2:00</span></h4>
+                            <h4 style="margin-bottom: 2px; text-align: right; display: none;"> <span class="time" style="padding-right: 0;"> Время на решение вопроса </span> </h4>
+                            <h4 style="margin-top: 0; text-align: right; display: none;"><span class="time question_time "></span></h4> </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="clear"></div>
+                    <div class="btn-group" style="margin-bottom: 30px;"> <a class="btn btn-mini btn-primary " style=" " role="button" href="javascript: void(0)">1</a> <a class="btn btn-mini " style=" " role="button" href="javascript: void(0)">2</a> <a class="btn btn-mini " style=" " role="button" href="javascript: void(0)">3</a> <a class="btn btn-mini " style=" " role="button" href="javascript: void(0)">4</a> <a class="btn btn-mini " style=" " role="button" href="javascript: void(0)">5</a> <a class="btn btn-mini " style=" " role="button" href="javascript: void(0)">6</a> <a class="btn btn-mini " style=" " role="button" href="javascript: void(0)">7</a> <a class="btn btn-mini " style=" " role="button" href="javascript: void(0)">8</a> <a class="btn btn-mini " style=" " role="button" href="javascript: void(0)">9</a> <a class="btn btn-mini " style=" " role="button" href="javascript: void(0)">10</a> <a class="btn btn-mini " style=" " role="button" href="javascript: void(0)">11</a> <a class="btn btn-mini " style=" " role="button" href="javascript: void(0)">12</a> <a class="btn btn-mini " style=" " role="button" href="javascript: void(0)">13</a> <a class="btn btn-mini " style=" " role="button" href="javascript: void(0)">14</a> <a class="btn btn-mini " style=" " role="button" href="javascript: void(0)">15</a> <a class="btn btn-mini " style=" " role="button" href="javascript: void(0)">16</a> <a class="btn btn-mini " style=" " role="button" href="javascript: void(0)">17</a> <a class="btn btn-mini " style=" " role="button" href="javascript: void(0)">18</a> <a class="btn btn-mini " style=" " role="button" href="javascript: void(0)">19</a> </div>
+                    <div class="question__text" style="padding-left: 0; padding-right: 0; width: 100%; font-size: 18px; line-height: 24px; ">
+                        <p>Запишите химический знак хлора</p>
+                    </div>
+                    <hr>
+                    <form id="question_answer" action="javascript:void(0)">
+                        <input type="text" id="question_type_5" class="question_answers_input" autocomplete="off"> </form>
+                    <hr>
+                    <div class="pull-left">
+                        <div class="buttons">
+                            <form id="finish_test_form" action="javascript:void(0)" class="finish_test_form pull-left">
+                                <button type="submit" class="btn">Завершить тестирование</button>
+                            </form>
+                            <form id="next_question_form" action="javascript:void(0)" class="next_question_form pull-left">
+                                <button type="submit" class="btn btn-primary">Следующий вопрос &rarr;</button>
+                            </form>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="buttons buttons_next">
+                            <div class="pull-left">
+                                <button type="button" class="btn disabled">Завершить тестирование</button>
+                            </div>
+                            <div class="pull-left">
+                                <button type="button" class="btn btn-primary disabled">Загрузка вопроса ...</button>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="buttons buttons_finish">
+                            <div class="pull-left">
+                                <button type="button" class="btn disabled">Завершение ...</button>
+                            </div>
+                            <div class="pull-left">
+                                <button type="button" class="btn btn-primary disabled">Следующий вопрос &rarr;</button>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                    <div class="pull-right"> <span style="font-size: 16px; line-height: 30px;"> Вам понравился этот вопрос? </span>
+                        <div class="pull-right" style="position: relative; margin-left: 10px;">
+                            <button class="btn question_feedback__like " data-id="6113" style="display: block;" href="javascript:void(0)"> Да <span class="icon-heart icon-white"></span> </button>
+                            <div class="progress progress-info progress-striped active" style="margin: 0; display: none; height: 3px; width: 100%; position: absolute;">
+                                <div class="bar" style="width: 100%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+            <div class="footer_placeholder"></div>
+        </div>
+    </div>
+    <footer class="page_footer" id="bottom">
+        <div class="container" style="position: relative; z-index: 2;">
+            <div style="text-align: center">
+                <br> <span>Пишите нам: <a href="mailto:info@brainoom.com">info@brainoom.com</a></span> <span style="margin: 0 50px;"> <span class="icon-copyright_12"></span> 2015&ndash;2018 Brainoom® </span>
+                <nobr>
+                    <a style="margin-right: 8px;" rel="nofollow" target="_blank" href="https://www.facebook.com/brainoom"><img height="16" width="16" src="/img/fb_i_blue.png" alt="Facebook"></a><a rel="nofollow" target="_blank" href="https://www.facebook.com/brainoom">Facebook</a> </nobr>
+                <nobr>
+                    <a style="margin: 0 8px 0 50px;" rel="nofollow" target="_blank" href="https://vk.com/brainoom"><img height="16" width="16" src="/img/vk_i_inter.png" alt="ВКонтакте"></a><a rel="nofollow" target="_blank" href="https://vk.com/brainoom">ВКонтакте</a> </nobr>
+            </div>
+        </div>
+    </footer>
+    <div id="ajax_data_open_window" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="ajax_data_open_window_label" aria-hidden="true">
+        <form class="modal_form" action="javascript:void(0)" method="POST">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h3 id="ajax_data_open_window_label"></h3> </div>
+            <div class="modal-body">
+                <div class="modal_container"></div>
+                <div class="progress progress-info progress-striped active">
+                    <div class="bar" style="width: 100%;"></div>
+                </div>
+                <div class="alert alert-error"> <strong>Ошибка.</strong> Попробуйте повторить Ваше действие ещё раз. </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn" data-dismiss="modal" aria-hidden="true">Закрыть</button>
+            </div>
+        </form>
+    </div>
+    <div id="ajax_data_open_window2" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="ajax_data_open_window2_label" aria-hidden="true">
+        <form class="modal_form" action="javascript:void(0)" method="POST">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h3 id="ajax_data_open_window2_label"></h3> </div>
+            <div class="modal-body" style="padding: 0;">
+                <div class="modal_container"></div>
+                <div class="progress progress-info progress-striped active">
+                    <div class="bar" style="width: 100%;"></div>
+                </div>
+                <div class="alert alert-error"> <strong>Ошибка.</strong> Попробуйте повторить Ваше действие ещё раз. </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn" data-dismiss="modal" aria-hidden="true">Закрыть</button>
+            </div>
+        </form>
+    </div>
+    <div id="ajax_data_confirm_window" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="ajax_data_confirm_window_label" aria-hidden="true">
+        <form class="modal_form" action="javascript:void(0)" method="POST">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h3 id="ajax_data_confirm_window_label"></h3> </div>
+            <div class="modal-body">
+                <div class="modal_container"></div>
+            </div>
+            <div class="progress progress-info progress-striped active">
+                <div class="bar" style="width: 100%;"></div>
+            </div>
+            <div class="alert alert-error"> <strong>Ошибка.</strong> Попробуйте повторить Ваше действие ещё раз. </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" id="ajax_data_confirm_window_yes_btn">Хорошо, продолжить <i class="icon-ok icon-white"></i></button>
+                <button type="button" class="btn" id="ajax_data_confirm_window_no_btn" data-dismiss="modal" aria-hidden="true">Отмета</button>
+            </div>
+        </form>
+    </div>
+    <div id="ajax_iframe_open_window" class="modal modal--with-border hide fade" tabindex="-1" role="dialog" aria-labelledby="ajax_iframe_open_window_label" aria-hidden="true">
+        <form class="modal_form" action="javascript:void(0)" method="POST">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h3 id="ajax_iframe_open_window_label"></h3> </div>
+            <div class="modal-body" style="padding: 0">
+                <div class="modal_container"></div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn" data-dismiss="modal" aria-hidden="true">Закрыть</button>
+            </div>
+        </form>
+    </div>
+    <div id="edit_subjects_for_school_topic" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="edit_school_topic_label" aria-hidden="true">
+        <form class="modal_form" action="" method="POST" onsubmit="return confirm('Сохранить?');">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h3 id="edit_school_topic_label"></h3> </div>
+            <div class="modal-body">
+                <div class="modal_longtitle" style="margin-bottom: 10px;"></div>
+                <div class="modal_container"></div>
+            </div>
+            <div class="modal-footer before_submit_buttons">
+                <button type="submit" class="btn btn-primary">Сохранить</button>
+                <button type="button" class="btn" data-dismiss="modal" aria-hidden="true">Отмена</button>
+            </div>
+        </form>
+    </div>
+    <div id="window_for_open_div" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="window_for_open_div_label" aria-hidden="true">
+        <form class="modal_form" action="" method="POST">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h3 id="window_for_open_div_label"></h3> </div>
+            <div class="modal-body">
+                <div class="modal_longtitle" style="margin-bottom: 10px;"></div>
+                <div class="modal_container"></div>
+            </div>
+            <div class="modal-footer before_submit_buttons">
+                <button type="submit" class="btn btn-primary">Сохранить</button>
+                <button type="button" class="btn" data-dismiss="modal" aria-hidden="true">Отмена</button>
+            </div>
+        </form>
+    </div>
+    <script src="https://school127.brainoom.com/tinymce/jscripts/tiny_mce/tiny_mce.js"></script>
+    <script src="https://school127.brainoom.com/js/main.min.js?v=180903"></script>
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+        (function(d, w, c) {
+            (w[c] = w[c] || []).push(function() {
+                try {
+                    w.yaCounter35978900 = new Ya.Metrika({
+                        id: 35978900,
+                        clickmap: true,
+                        trackLinks: true,
+                        accurateTrackBounce: true,
+                        ut: "noindex"
+                    });
+                } catch (e) {}
+            });
+            var n = d.getElementsByTagName("script")[0],
+                s = d.createElement("script"),
+                f = function() {
+                    n.parentNode.insertBefore(s, n);
+                };
+            s.type = "text/javascript";
+            s.async = true;
+            s.src = "https://mc.yandex.ru/metrika/watch.js";
+            if (w.opera == "[object Opera]") {
+                d.addEventListener("DOMContentLoaded", f, false);
+            } else {
+                f();
+            }
+        })(document, window, "yandex_metrika_callbacks");
+    </script>
+    <noscript>
+        <div><img src="https://mc.yandex.ru/watch/35978900?ut=noindex" style="position:absolute; left:-9999px;" alt="" /></div>
+    </noscript>
+    <!-- /Yandex.Metrika counter -->
+</body>

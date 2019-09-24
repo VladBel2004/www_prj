@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang='ec'>
+<head>
+        <meta charset='UTF-8'>
+        <meta name='viewport' content='width=device-width initial-scale=1' >
+        <title>ROOT Page</title>
+        <style type='text/css'>
+        *{
+                padding: 0;
+                margin: 0;
+        }
+
+        .content{
+                width: 90%;
+                height: 20rem;
+                margin: auto;
+                background-color: #eee;
+                border-radius: 0.5rem;
+                border: 1px solid black;
+                display: -moz-flex;
+                display: -webkit-flex;
+                display: flex;
+                -moz-flex-direction: column;
+                -webkit-flex-direction: column;
+                flex-direction: column;
+        }
+
+        .content-row{
+                display: -moz-flex;
+                display: -webkit-flex;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+        }
+        
+        .content-item{
+                width: 5rem;
+                height: 5rem;
+                text-align: center;
+                background-color: #fff;
+                color: #000;
+                border-radius: 10%;
+                margin: 0.5rem;
+                cursor: pointer;
+                font-size: 2.5rem;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+                transition: all .5s;
+        }
+        .content-item:hover{
+                background-color: #f73277;
+        }
+
+        </style>
+</head>
+<body>
+        <div class='content'>
+                <div class='content-row'>
+                        <div class='content-item' id='w-key'>W</div>
+                </div>
+                <div class='content-row'>
+                        <div class='content-item' id='a-key'>A</div>
+                        <div class='content-item' id='s-key'>S</div>
+                        <div class='content-item' id='d-key'>D</div>
+                </div>
+        </div>
+
+        <script>
+g_method = 'POST'
+g_host = 'http://192.168.1.118/'
+
+w_key = document.getElementById( 'w-key' );
+a_key = document.getElementById( 'a-key' );
+s_key = document.getElementById( 's-key' );
+d_key = document.getElementById( 'd-key' );
+
+w_key_stat = false;
+a_key_stat = false;
+s_key_stat = false;
+d_key_stat = false;
+
+motor0_key_press = false;
+motor1_key_press = false;
+
+setInterval( function(){
+        message = ''
+
+        if( w_key_stat && !s_key_stat )
+        {
+                message += 'motor1=right&';
+        }
+        else if( !w_key_stat && s_key_stat )
+        {
+                message += 'motor1=left&';
+        }
+        else if( w_key_stat == s_key_stat )
+        {
+                message += 'motor1=stop&';
+        }
+
+        if( a_key_stat && !d_key_stat )
+        {
+                message += 'motor0=left';
+        }
+        else if( !a_key_stat && d_key_stat )
+        {
+                message += 'motor0=right';
+        }
+        else if( a_key_stat == d_key_stat )
+        {
+                message += 'motor0=stop';
+        }
+
+        console.log(message);
+
+        ajax( g_method, g_host, message, function(resp){ if( resp.status == 200 ){ console.log('keydown Event was passed.') }else{ console.log( 'Error on keydown' ) } } );
+}, 100 );
+
+document.body.addEventListener( 'keydown', keydownEventHandler );
+document.body.addEventListener( 'keyup', keyupEventHandler );
+
+function keydownEventHandler( event )
+{
+        postData = null;
+
+        if( ( event.key == 'w' || event.key == 's' ) && motor1_key_press == false )
+        {
+                if( event.key == 'w' )
+                {
+                        w_key.style.backgroundColor = '#000';
+                        w_key.style.color = '#fff';
+
+                        w_key_stat = true;
+                }
+                else if( event.key == 's' )
+                {          
+                        s_key.style.backgroundColor = '#000';
+                        s_key.style.color = '#fff';
+
+                        s_key_stat = true; 
+                }
+
+                motor1_key_press = true;
+        }
+        else if( ( event.key == 'a' || event.key == 'd' ) && motor0_key_press == false )
+        {
+                if( event.key == 'a' )
+                {
+                        a_key.style.backgroundColor = '#000';
+                        a_key.style.color = '#fff';
+
+                        a_key_stat = true;
+                } 
+                else if( event.key == 'd' )
+                {
+                        d_key.style.backgroundColor = '#000';
+                        d_key.style.color = '#fff';
+
+                        d_key_stat = true;
+                }
+
+                motor0_key_press = true;
+        }
+}
+
+function keyupEventHandler( event )
+{
+        if( event.key == 'w' || event.key == 's' )
+        {
+                if( event.key == 'w' )
+                {
+                        w_key.style.backgroundColor = null;
+                        w_key.style.color = null;
+
+                        w_key_stat = false;
+                }
+                else if( event.key == 's' )
+                {
+                        s_key.style.backgroundColor = null;
+                        s_key.style.color = null;
+
+                        s_key_stat = false;
+                }
+
+                motor1_key_press = false;
+        }
+        else if( event.key == 'a' || event.key == 'd' )
+        {
+                if( event.key == 'a' )
+                {
+                        a_key.style.backgroundColor = null;
+                        a_key.style.color = null;
+
+                        a_key_stat = false;
+                }
+                else if( event.key == 'd' )
+                {
+                        d_key.style.backgroundColor = null;
+                        d_key.style.color = null;
+
+                        d_key_stat = false;
+                }
+
+                motor0_key_press = false;
+        }
+}
+
+
+function ajax( method, path, args, handler )
+{
+        var req = new XMLHttpRequest();
+        
+        if( !req )
+        {
+                alert( 'Erro on create XMLHttpRequest instance.' );
+                return;
+        }
+
+        req.onreadystatechange = function()
+        {
+                if( req.readyState == 4 )
+                {
+                        if( req.status == 200 )
+                        {
+                                if( handler != undefined )
+                                handler( req );
+                        }
+                        
+                        else if( req.status == 400 )
+                        {
+                                alert( 'Error 400 Bad Request' );
+                        }
+                }
+        }
+        
+        req.open( method, path, true );
+
+        if( method.toLowerCase() == 'post' )
+        {
+                req.setRequestHeader('Content-Type','application/x-www-form-urlencoded;');                
+                req.send( args + String.fromCharCode('\u0000') );
+        }
+        else
+        {
+                alert( 'Unknown Method.' );
+                return;
+        }
+}
+        </script>
+</body>
+</html>

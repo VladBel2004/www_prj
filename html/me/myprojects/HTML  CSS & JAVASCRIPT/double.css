@@ -1,0 +1,21 @@
+body{
+	font-family: Arial;
+	color: #111;
+}
+p{
+	padding: 15px;
+}
+img{
+	width: 600px;
+	float: left;
+   margin: 10px;
+   border-radius: 10px;
+}
+.text{
+	float: left;
+	width: 600px;
+}
+.textI{
+	margin:20px;
+	clear: both;
+}

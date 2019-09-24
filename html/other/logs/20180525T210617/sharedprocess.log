@@ -1,0 +1,73 @@
+[2018-05-25 21:06:18.723] [sharedprocess] [info] main {"machineId":"4fd368a50cab7edf1f493950ad5427e90b9ac12fca180ac55f52481aaf7b6541"}
+[2018-05-25 21:06:18.761] [sharedprocess] [info] Scanned user extensions: 0
+[2018-05-25 21:06:18.814] [sharedprocess] [info] Scanned system extensions: 69
+[2018-05-25 21:06:20.204] [sharedprocess] [info] Scanned user extensions: 0
+[2018-05-25 21:06:20.206] [sharedprocess] [info] Scanned user extensions: 0
+[2018-05-25 21:06:20.212] [sharedprocess] [info] Scanned user extensions: 0
+[2018-05-25 21:06:20.328] [sharedprocess] [info] Scanned system extensions: 69
+[2018-05-25 21:06:20.333] [sharedprocess] [info] Scanned system extensions: 69
+[2018-05-25 21:06:22.886] [sharedprocess] [info] Scanned user extensions: 0
+[2018-05-25 21:06:23.786] [sharedprocess] [info] Scanned user extensions: 0
+[2018-05-25 21:06:44.895] [sharedprocess] [info] Scanned user extensions: 0
+[2018-05-25 21:06:44.899] [sharedprocess] [info] Scanned user extensions: 0
+[2018-05-25 21:06:44.900] [sharedprocess] [info] Scanned user extensions: 0
+[2018-05-25 21:06:44.941] [sharedprocess] [info] Installing extension: vscode-language-pack-ru
+[2018-05-25 21:06:44.949] [sharedprocess] [info] Scanned user extensions: 0
+[2018-05-25 21:06:44.976] [sharedprocess] [info] Scanned system extensions: 69
+[2018-05-25 21:06:44.982] [sharedprocess] [info] Scanned system extensions: 69
+[2018-05-25 21:06:48.059] [sharedprocess] [info] Downloaded extension: vscode-language-pack-ru
+[2018-05-25 21:06:48.182] [sharedprocess] [info] Extracted extension to /root/.vscode/extensions/.MS-CEINTL.vscode-language-pack-ru-1.23.0: MS-CEINTL.vscode-language-pack-ru-1.23.0
+[2018-05-25 21:06:48.182] [sharedprocess] [info] Renamed to /root/.vscode/extensions/MS-CEINTL.vscode-language-pack-ru-1.23.0
+[2018-05-25 21:06:48.182] [sharedprocess] [info] Installation completed. MS-CEINTL.vscode-language-pack-ru-1.23.0
+[2018-05-25 21:06:48.222] [sharedprocess] [info] Extensions installed successfully: MS-CEINTL.vscode-language-pack-ru
+[2018-05-25 21:06:48.230] [sharedprocess] [info] Scanned user extensions: 1
+[2018-05-25 21:06:48.253] [sharedprocess] [info] Scanned system extensions: 69
+[2018-05-25 21:06:48.340] [sharedprocess] [info] Scanned user extensions: 1
+[2018-05-25 21:06:48.370] [sharedprocess] [info] Scanned system extensions: 69
+[2018-05-25 21:06:58.732] [sharedprocess] [info] Starting to clean up unused language packs.
+[2018-05-25 21:07:09.807] [sharedprocess] [info] Scanned user extensions: 1
+[2018-05-25 21:07:09.808] [sharedprocess] [info] Scanned user extensions: 1
+[2018-05-25 21:07:09.814] [sharedprocess] [info] Scanned user extensions: 1
+[2018-05-25 21:07:09.828] [sharedprocess] [info] Scanned user extensions: 1
+[2018-05-25 21:07:09.830] [sharedprocess] [info] Scanned user extensions: 1
+[2018-05-25 21:07:09.846] [sharedprocess] [info] Scanned user extensions: 1
+[2018-05-25 21:07:09.851] [sharedprocess] [info] Scanned user extensions: 1
+[2018-05-25 21:07:09.950] [sharedprocess] [info] Scanned system extensions: 69
+[2018-05-25 21:07:09.958] [sharedprocess] [info] Scanned system extensions: 69
+[2018-05-25 21:07:09.964] [sharedprocess] [info] Scanned system extensions: 69
+[2018-05-25 21:07:09.973] [sharedprocess] [info] Scanned system extensions: 69
+[2018-05-25 21:07:09.977] [sharedprocess] [info] Scanned system extensions: 69
+[2018-05-25 21:07:12.909] [sharedprocess] [info] Scanned user extensions: 1
+[2018-05-25 21:07:12.912] [sharedprocess] [info] Scanned user extensions: 1
+[2018-05-25 21:08:30.405] [sharedprocess] [info] Scanned user extensions: 1
+[2018-05-25 21:08:30.405] [sharedprocess] [info] Scanned user extensions: 1
+[2018-05-25 21:08:30.410] [sharedprocess] [info] Scanned user extensions: 1
+[2018-05-25 21:08:30.509] [sharedprocess] [info] Scanned system extensions: 69
+[2018-05-25 21:08:30.515] [sharedprocess] [info] Scanned system extensions: 69
+[2018-05-25 21:08:33.105] [sharedprocess] [info] Scanned user extensions: 1
+[2018-05-25 21:08:33.109] [sharedprocess] [info] Scanned user extensions: 1
+[2018-05-25 21:11:40.571] [sharedprocess] [info] Scanned user extensions: 1
+[2018-05-25 21:11:40.573] [sharedprocess] [info] Scanned user extensions: 1
+[2018-05-25 21:11:40.573] [sharedprocess] [info] Scanned user extensions: 1
+[2018-05-25 21:11:40.624] [sharedprocess] [info] Scanned system extensions: 69
+[2018-05-25 21:11:40.628] [sharedprocess] [info] Scanned system extensions: 69
+[2018-05-25 21:11:57.722] [sharedprocess] [info] Installing extension: csharp
+[2018-05-25 21:11:57.724] [sharedprocess] [info] Scanned user extensions: 1
+[2018-05-25 21:13:19.511] [sharedprocess] [info] Downloaded extension: csharp
+[2018-05-25 21:13:21.652] [sharedprocess] [info] Extracted extension to /root/.vscode/extensions/.ms-vscode.csharp-1.15.2: ms-vscode.csharp-1.15.2
+[2018-05-25 21:13:21.653] [sharedprocess] [info] Renamed to /root/.vscode/extensions/ms-vscode.csharp-1.15.2
+[2018-05-25 21:13:21.653] [sharedprocess] [info] Installation completed. ms-vscode.csharp-1.15.2
+[2018-05-25 21:13:21.717] [sharedprocess] [info] Extensions installed successfully: ms-vscode.csharp
+[2018-05-25 21:13:21.856] [sharedprocess] [info] Scanned user extensions: 2
+[2018-05-25 21:13:21.877] [sharedprocess] [info] Scanned system extensions: 69
+[2018-05-25 21:13:33.122] [sharedprocess] [info] Scanned user extensions: 2
+[2018-05-25 21:13:34.481] [sharedprocess] [info] Scanned user extensions: 2
+[2018-05-25 21:13:34.486] [sharedprocess] [info] Scanned user extensions: 2
+[2018-05-25 21:13:34.491] [sharedprocess] [info] Scanned user extensions: 2
+[2018-05-25 21:13:34.519] [sharedprocess] [info] Scanned user extensions: 2
+[2018-05-25 21:13:34.523] [sharedprocess] [info] Scanned user extensions: 2
+[2018-05-25 21:13:34.617] [sharedprocess] [info] Scanned system extensions: 69
+[2018-05-25 21:13:34.623] [sharedprocess] [info] Scanned system extensions: 69
+[2018-05-25 21:13:34.629] [sharedprocess] [info] Scanned system extensions: 69
+[2018-05-25 21:13:37.685] [sharedprocess] [info] Scanned user extensions: 2
+[2018-05-25 21:13:37.694] [sharedprocess] [info] Scanned user extensions: 2

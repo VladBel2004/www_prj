@@ -1,0 +1,59 @@
+body{
+	transition: all 3s;
+	height: 730px;
+	background: radial-gradient(#383838, #000000);
+}
+#instructions{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	height: 540px;
+	width: 960px;
+}
+h1{
+	margin-left: auto;
+	margin-right: auto;
+	height: 50px;
+	width: auto;
+	display: block;
+	color: #bbbbbb;
+	cursor: pointer;
+	transition: all .3s;
+	text-align: center;
+}
+h2{
+	color: #535353;
+	position: absolute;
+	left: 3%;
+	top: 1%;
+	transition: all .3s;
+	cursor: pointer;
+}
+h2:hover{
+	color: #ffffff;
+}
+.myFaSettings{
+	font-size: 5em;
+	color: white;
+	position: absolute;
+	margin: 20px;
+	top: 165px;
+	cursor: pointer;
+	border: solid 1px #858585;
+	color: #858585;
+	height: 370px;
+	width: 230px;
+	border-radius: 30px;
+	overflow: hidden;
+	-moz-transition: all .5s;
+}
+.myFaSettings:hover{
+	color: #ffffff;
+	border: solid 1px #ffffff;
+}
+#cli{
+	position: absolute;
+	background: #ffffff;
+	width: 10px;
+	height: 10px;
+}

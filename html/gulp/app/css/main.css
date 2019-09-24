@@ -1,0 +1,12 @@
+body {
+  background-color: #000000;
+  color: #777;
+  border: solid 1px black;
+  -webkit-border-radius: 20px;
+          border-radius: 20px;
+  -webkit-transition: all .8s;
+  -o-transition: all .8s;
+  transition: all .8s; }
+
+p {
+  color: white; }

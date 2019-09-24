@@ -1,0 +1,15 @@
+{
+  "name": "dashjs",
+  "homepage": "https://github.com/Dash-Industry-Forum/dash.js",
+  "version": "2.9.0",
+  "_release": "2.9.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v2.9.0",
+    "commit": "0420f9ccbb80ff9fb769a58308b30f2f039af9fc"
+  },
+  "_source": "https://github.com/Dash-Industry-Forum/dash.js.git",
+  "_target": "^2.9.0",
+  "_originalSource": "dashjs",
+  "_direct": true
+}

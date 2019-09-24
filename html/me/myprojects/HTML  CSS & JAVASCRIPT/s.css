@@ -1,0 +1,278 @@
+#b2{
+	background: wait;
+}
+#b1{
+	background: wait;
+}
+.t{
+	background: green;
+	color: orange;
+}
+#down{
+	color: black;
+	border: 2px dashed green;
+}
+#down:hover {
+	color: #fff;
+	background: #647;
+	border: 0px dashed #008000;
+}
+#down:active{
+	color: #783;
+}
+.t:active{
+	color: #fff;
+}
+#a{
+	color: black;
+	background: #aaa7;
+	height: 25px;
+	width: 125px;
+	position: relative;
+	top: 50px;
+	bottom: 0px;
+	right: 0px;
+	left: 0px;
+	z-index: 1;
+	border: 2px dotted #565656;
+	}
+#b{
+	background: #4F4545;
+	display: block;
+	max-width: 1000px;
+	min-width: 100px;
+	height: 150px;
+}
+#b2 p{
+	font-family: Arial;
+}
+#bord{
+	height: 300px;
+	width: 300px;
+	background: #915393;
+	border: 2px solid black;
+	position: absolute;
+	top: 600px;
+	bottom: 0px;
+	right: 0px;
+	left: 1050px;
+	border-radius: 200px 200px 30px 200px;
+}
+#bord2{
+	height: 0;
+	width: 0;
+	position: absolute;
+	top: 600px;
+	bottom: 0px;
+	right: 0px;
+	left: 1500px;
+	border-bottom: 150px solid #915393;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+}
+#bord3{
+	height: 300px;
+	width: 600px;
+	border: 2px solid #aaa;
+	background-position: center;
+	background-size: 100%;
+	background: linear-gradient();
+	border-radius: 22px;
+	overflow: hidden;
+	box-shadow: 0 8px 15px #aaa;
+}
+#bord3:after{
+	content: '';
+	height: 300px;
+	width: 600px;
+	
+	display: block;
+	z-index: 2;
+	background-image: url(http://risovach.ru/upload/2015/03/generator/dzheyk-vremya-priklyucheniy_77360042_orig_.png);
+	background-repeat: no-repeat;
+	background-size: 600px;
+}
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	height: 0;
+	width: 0;
+}
+.buttons li{
+	background: url(1.png) no-repeat;
+	display: inline-block;
+	height: 180px;
+	width: 200px;
+	position: absolute;
+	top: 800px;
+	bottom: 0px;
+	right: 0px;
+	left: 700px;
+	cursor: pointer;
+}
+.buttons li:hover{
+	background-position: 0px -192px;
+}
+.buttons li:active{
+	background-position: 0px -384px;
+}
+p{
+	padding: 15px;
+}
+img{
+	width: 600px;
+	float: left;
+	margin: 10px;
+}
+#vlad{
+	display: block;
+	width: 200px;
+	height: 200px;
+	margin: 30px;
+	background:#F4E3F4;
+	cursor: pointer;
+	border-radius: 50%;
+	box-shadow: 1px 3px 20px #7A7A7a, 
+		 inset 2px 2px 1px rgba(255,255,255,.1),
+		  0 2px 0 rgba(0,0,0,.1),
+		  inset 0 0 80px rgba(0,0,0,.1);
+}
+.m{
+	text-transform: uppercase;
+	list-style: none;
+	padding: 0;
+	margin:30px;
+	font-size: 0.8em;
+	position: fixed;
+	top: 0;
+	right: 200px;
+}
+.m li a{
+	display: block;
+	width: 200px;
+	height: 40px;
+	line-height: 40px;
+	background:#E5EAF6;
+	margin: 1px;
+	color: #7E7F81;
+	padding-left: 15px;
+	cursor: pointer;
+}
+.m li a:first-child{
+	font-size: 1.5em;
+	height: 50px;
+	line-height: 50px;
+	position: relative;
+}
+.m li a:hover{
+	color: #37393F;
+	background: #DAE3F5;
+	/* transition-property: background ; */
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in-out;
+}
+.m li{
+	overflow: hidden;
+	width: 200px;
+	height: 50px;
+	margin: 1px;
+	transition: all .3s ease-in-out;
+}
+.m li:hover{
+	width: 200px;
+	height: 185px;
+}
+.ffb{
+	height: 340px;
+	width: 600px;
+	background: #aaa;
+	border-radius: 20px;
+	transition: background .8s ease-in-out;
+	overflow: hidden;
+	cursor: pointer;
+	position: relative;
+	transform: rotateZ(0deg) translate(100px);
+	transition: transform .8s;
+}
+.ffb img{
+	position: relative;
+	top: -10px;
+	left: -10px;
+
+}
+.ffb:after{
+	content: '';
+	height: 340px;
+	width: 600px;
+	background: radial-gradient(transparent, rgba(0,0,0,.7));
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: all .4s ease-in-out;
+
+}
+.ffb:hover::after{
+	opacity: 0;
+	 
+}
+.ffb:hover{
+	transform:rotateZ(0deg) translate(0px);
+}
+.anim{
+	height: 150px;
+	width: 150px;
+	background: #aaa;
+	border-radius: 20px;
+	position: absolute;
+	top: 2530px;
+	left: 1000px;
+	animation-name: spin;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear; 
+	transition:all .2s ease-in-out;  
+}
+@keyframes spin{
+	0%{
+		transform: rotate(0deg);
+	}
+	100%{
+		transform: rotate(360deg);
+	}
+}
+.anim:hover{
+	animation-duration: 2s;
+	height: 200px;
+	width: 200px;
+	border-radius: 50px;
+}
+@font-face{
+	font-family: BadScript;
+	src: url(BadScript-Regular.ttf);
+	font-weight: bold;
+}
+.ert{
+	font-family: BadScript;
+	font-size: 2em;
+	margin:0;
+	padding: 1;
+	opacity: .1;
+	transition: all .8s;
+}
+.ert:hover{
+	opacity: 1;
+}
+#myButt{
+	border-radius: 10px;
+	background: #2AC599FF;
+	width: 200px;
+	height: 150px;
+	transition: all .5s;
+	text-align: center;
+}
+#myButt:hover{
+	background: #168062FF;
+	border-radius: 15px;
+
+}

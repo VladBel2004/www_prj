@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>AJAX_l_18</title>
+</head>
+<body style="text-align: center;">
+	<h1>Заголовок Веб станицы </h1>
+	<div id="info">WillS</div>
+	<script>
+	   		par="url=localhost/myprojects/connect.php";
+	   		request=new RRR();
+	   		request.open("POST", "urlpost.php", true);
+	   		request.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+	   		//request.setRequestHeader("Content-length", par.length);
+	   		//request.setRequestHeader("Connection", "close")
+
+	   		request.onreadystatechange=function(){
+	   			if(this.readyState==4){
+	   				if(this.status==200){
+	   					if(this.responseText!=null){
+	   						document.getElementById('info').innerHTML=this.responseText;
+	   					}
+	   					else alert("Ajax error: No data req");
+	   				}
+	   				else alert("Ajax error: "+this.statusText);
+	   			}
+	   		}
+
+              request.send(par);
+
+	  function RRR()
+      {
+        try
+        {
+          var ee = new XMLHttpRequest();
+        }
+        catch(e1)
+        {
+          try
+          {
+            ee = new ActiveXObject("Msxml2.XMLHTTP");
+          }
+          catch(e2)
+          {
+            try
+            {
+              ee = new ActiveXObject("Microsoft.XMLHTTP");
+            }
+            catch(e3)
+            {
+              ee = false;
+            }
+          }
+        }
+        return ee;
+      }
+	   	</script>
+</body>
+</html>

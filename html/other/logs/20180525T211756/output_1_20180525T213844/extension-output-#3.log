@@ -1,0 +1,12 @@
+Installing C# dependencies...
+Platform: linux, x86_64, name=kali, version=2018.2
+
+Downloading package 'OmniSharp for Linux (x64)' (25399 KB).................... Done!
+Installing package 'OmniSharp for Linux (x64)'
+
+Downloading package '.NET Core Debugger (linux / x64)' (57655 KB).................... Done!
+Installing package '.NET Core Debugger (linux / x64)'
+
+Finished
+
+Failed to spawn 'dotnet --info'

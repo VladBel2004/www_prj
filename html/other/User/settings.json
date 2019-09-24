@@ -1,0 +1,28 @@
+{
+    "window.closeWhenEmpty": false,
+    "window.newWindowDimensions": "inherit",
+    "window.menuBarVisibility": "toggle",
+    "window.title": "${dirty}${activeEditorShort}${separator}${rootName}${separator}${appName}",
+    "php.validate.run": "onType",
+    "window.zoomLevel": 1,
+    //"workbench.colorTheme": "Monokai"
+    "workbench.colorTheme": "Default Dark+",
+    "workbench.iconTheme": "vs-seti",
+    "workbench.list.openMode": "singleClick",
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.statusBar.feedback.visible": false,
+    "workbench.tree.horizontalScrolling": true,
+    "editor.fontSize": 14,
+    "editor.tabSize": 3,
+    "editor.renderWhitespace": "none",
+    "editor.cursorStyle": "line-thin",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.wordWrap": "bounded",
+    "workbench.statusBar.visible": false,
+    "editor.minimap.enabled": false,
+    "debug.hideActionBar": false,
+    "workbench.activityBar.visible": false,
+   "editor.detectIndentation": false,
+	"editor.insertSpaces": false,
+	"editor.smoothScrolling": true
+}

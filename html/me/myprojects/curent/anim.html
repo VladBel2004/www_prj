@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Anim</title>
+  <style type="text/css">
+  	#e{
+  		position: absolute;
+  		border: solid 2px black;
+  		bottom: 52px;
+  		left: 0;
+  	}
+  </style>
+
+</head>
+<body>
+	<script type="text/javascript">
+
+		nEl=document.createElement('div');
+		nEl.id="el";
+		document.body.appendChild(nEl);
+		tt=true;
+
+		tmp= nEl.offsetTop;
+		document.getElementById("el").style.border = 'solid 1px black';
+		document.getElementById("el").style.width = '100px';
+		document.getElementById("el").style.height = '100px';
+		document.getElementById("el").style.backgroundColor = "gray";
+		document.getElementById("el").style.transition = 'all .4s ease-in-out';
+		document.getElementById("el").style.position = 'absolute';
+    
+    document.getElementById("el").onmouseover=function(){
+    	
+    		document.getElementById("el").style.height = '200px';
+    		document.getElementById("el").style.width = '200px';
+    		tt=false;
+    };
+    document.getElementById("el").onmouseout=function(){
+       document.getElementById("el").style.height = '100px';
+       document.getElementById("el").style.width = '100px';
+       tt=true;
+    };
+
+	</script>
+
+	<br>
+	
+	<div id="e">ee</div>
+	
+  <script type="text/javascript">
+
+  	LEFT=0;
+  	ee=setInterval(anim, 15);
+
+  	function anim(){
+       LEFT+=1.5;
+       if(LEFT==300){clearInterval(ee); rr=setInterval(reanim, 15);}
+
+       document.getElementById("e").style.left=LEFT+'px';
+  	}
+
+  	function reanim(){
+      LEFT-=1.5;
+      if(LEFT==0){clearInterval(rr); ee=setInterval(anim, 15);}
+
+      document.getElementById("e").style.left=LEFT+'px';
+  	}
+
+  </script>
+</body>
+</html>

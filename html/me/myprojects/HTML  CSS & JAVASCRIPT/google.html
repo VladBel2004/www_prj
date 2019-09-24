@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Vald</title>
+	<script type="text/javascript">
+		document.write(reverse("vlad","iS", "famous", "haker"),"vv");
+		//document.location.href='http://www.google.com';
+		function reverse(){
+			var s="";
+			for(j=0; j<reverse.arguments.length; j++){
+				s+=reverse.arguments[j].charAt(0).toUpperCase()+reverse.arguments[j].substr(1).toLowerCase()+" ";
+			}
+			return s.substr(0, s.length);
+		}
+		document.write("<br><br>");
+        function check(ee){
+        	e=document.getElementById("ttt").value;
+        	ee="No: "+e;
+        	if(e=="vlad")document.getElementById('ee').innerHTML="vlad";
+        	else document.getElementById('ee').innerHTML=ee;
+        }
+	</script>
+</head>
+<body>
+	<input type="text" id="ttt">
+	<div onclick="check()" style="height: 20px;width: 20px;background: #FCAF3EFF;">
+	<p id='ee' style="padding: 30px 30px 30px 30px;"></p>
+	<a href="" download="">click</a>
+</body>
+</html>

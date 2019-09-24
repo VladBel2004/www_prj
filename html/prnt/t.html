@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		#v{
+			height: 200px;
+			width: 200px;
+			border: solid 2px black;
+			background: #999;
+			transition: all .3s;
+			border-radius: 50%;
+		}
+	</style>
+</head>
+<body>
+	<div id="v"></div>
+	<script>
+		document.getElementById('v').onclick = function(){this.style.width = '250px';this.style.border = 'solid 5px black';};
+	</script>
+</body>
+</html>

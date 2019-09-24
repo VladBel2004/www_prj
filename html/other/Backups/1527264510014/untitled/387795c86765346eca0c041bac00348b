@@ -1,0 +1,4 @@
+untitled:Untitled-2
+<?php
+  $ee = new mysqli("127.0.0.1", "uMg", "123", "sosyal");
+?>

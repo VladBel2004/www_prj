@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta HTTP-EQUIV="PRAGMA" content="no-cache">
+        <meta HTTP-EQUIV="CACHE-CONTROL" content="no-cache">
+        <title>Main Page</title>
+        <link rel="stylesheet" href="css/fonts.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/video-default-js.css">
+        <link rel="stylesheet" href="css/video-js.css">
+        <meta name="viewport" content="width=device-width initial-scale=1" >
+</head>
+<body>
+        <header class="header">
+                <div href="#" class="header-item">Tralers</div>
+                <div class="header-item">Films</div>
+                <div class="header-item">Actors</div>
+        </header>
+        <div class="content">
+                <div class="content-name">Tralers</div>
+                <div class="content-items">
+                        <div class="content-item">
+                                <div class="content-controls">
+                                        <p>Traler 1</p>
+                                        <img class="svg" src="img/svg_arrow.svg" alt="">
+                                </div>
+                        </div>
+                        <div class="content-item">
+                                <div class="content-controls">
+                                        <p>Traler 2</p>
+                                        <img class="svg" src="img/svg_arrow.svg" alt="">
+                                </div>
+                        </div>
+                        <div class="content-item">
+                                <div class="content-controls">
+                                        <p>Traler 3</p>
+                                        <img class="svg" src="img/svg_arrow.svg" alt="">
+                                </div>
+                        </div>
+                        <div class="content-item">
+                                <div class="content-controls">
+                                        <p>Traler 4</p>
+                                        <img class="svg" src="img/svg_arrow.svg" alt="">
+                                </div>
+                        </div>
+                        <div class="content-item">
+                                <div class="content-controls">
+                                        <p>Traler 5</p>
+                                        <img class="svg" src="img/svg_arrow.svg" alt="">
+                                </div>
+                        </div>
+                </div>
+        </div>
+        <div class="content">
+                <div class="content-name">Films</div>
+                <div class="content-items">
+                        <div class="content-item" id="a">
+                                <div class="content-controls" onclick="open_tab(this)">
+                                        <p>Film 1</p>
+                                        <img class="svg" src="img/svg_arrow.svg">
+                                </div>
+                                <div class="content-fluid">
+                                                <video class="video-js vjs-default-skin content-video" controls preload="none" poster='http://video-js.zencoder.com/oceans-clip.jpg'
+                                                                data-setup='{ "aspectRatio":"640:267", "playbackRates": [1, 1.5, 2] }'>
+                                                        <source src="https://vjs.zencdn.net/v/oceans.mp4" type='video/mp4' />
+                                                        <source src="https://vjs.zencdn.net/v/oceans.webm" type='video/webm' />
+                                                </video>
+
+                                        <div class="description">
+                                                <div class="headline">Description:</div>
+                                                <div class="desc-body">
+                                                        djdjdjjdjd
+                                                </div>
+                                        </div>
+                                        <div class="local-acters" id="l">
+                                                <div class="content-controls" onclick="open_acters_tab(this)">
+                                                        <p class="lcc-color">Acters in these film</p>
+                                                        <img class="svg" src="img/svg_arrow.svg" alt="">
+                                                </div>
+                                                <div class="content-media">
+                                                        <img class="media-img" src="https://im0-tub-ru.yandex.net/i?id=2dd21f2ec7d1d7119a7c509ac80b1139-l&n=13" alt="">
+                                                        <p class="media-p lcm-color">vlad is famous hacker</p>
+                                                </div>
+                                                <div class="content-media">
+                                                        <img class="media-img" src="https://im0-tub-ru.yandex.net/i?id=2dd21f2ec7d1d7119a7c509ac80b1139-l&n=13" alt="">
+                                                        <p class="media-p lcm-color">vlad is famous hacker</p>
+                                                </div>
+                                                <div class="content-media">
+                                                        <img class="media-img" src="https://im0-tub-ru.yandex.net/i?id=2dd21f2ec7d1d7119a7c509ac80b1139-l&n=13" alt="">
+                                                        <p class="media-p lcm-color">vlad is famous hacker</p>
+                                                </div> 
+                                        </div>                               
+                                </div>
+                        </div>
+                        <div class="content-item" id="b">
+                                <div class="content-controls" onclick="open_tab(this)">
+                                        <p>Film 2</p>
+                                        <img class="svg" src="img/svg_arrow.svg">
+                                </div>
+                                <div class="content-fluid">
+                                                <video class="video-js vjs-default-skin content-video" controls preload="none" poster='http://video-js.zencoder.com/oceans-clip.jpg'
+                                                                data-setup='{ "aspectRatio":"640:267", "playbackRates": [1, 1.5, 2] }'>
+                                                        <source src="https://vjs.zencdn.net/v/oceans.mp4" type='video/mp4' />
+                                                        <source src="https://vjs.zencdn.net/v/oceans.webm" type='video/webm' />
+                                                </video>
+
+                                        <div class="description">
+                                                <div class="headline">Description:</div>
+                                                <div class="desc-body">
+                                                        djdjdjjdjd
+                                                </div>
+                                        </div>
+                                        <div class="local-acters">
+                                                <div class="content-controls" onclick="open_acters_tab(this)">
+                                                        <p class="lcc-color">Acters in these film</p>
+                                                        <img class="svg" src="img/svg_arrow.svg" alt="">
+                                                </div>
+                                                <div class="content-media">
+                                                        <img class="media-img" src="https://im0-tub-ru.yandex.net/i?id=2dd21f2ec7d1d7119a7c509ac80b1139-l&n=13" alt="">
+                                                        <p class="media-p lcm-color">vlad is famous hacker</p>
+                                                </div>
+                                                <div class="content-media">
+                                                        <img class="media-img" src="https://im0-tub-ru.yandex.net/i?id=2dd21f2ec7d1d7119a7c509ac80b1139-l&n=13" alt="">
+                                                        <p class="media-p lcm-color">vlad is famous hacker</p>
+                                                </div>
+                                                <div class="content-media">
+                                                        <img class="media-img" src="https://im0-tub-ru.yandex.net/i?id=2dd21f2ec7d1d7119a7c509ac80b1139-l&n=13" alt="">
+                                                        <p class="media-p lcm-color">vlad is famous hacker</p>
+                                                </div> 
+                                        </div>                               
+                                </div>
+
+                        </div>
+                        <div class="content-item">
+                                <div class="content-controls">
+                                        <p>Film 3</p>
+                                        <img class="svg" src="img/svg_arrow.svg">
+                                </div>
+                        </div>
+                        <div class="content-item">
+                                <div class="content-controls">
+                                        <p>Film 4</p>
+                                        <img class="svg" src="img/svg_arrow.svg">
+                                </div>
+                        </div>
+                        <div class="content-item">
+                                <div class="content-controls">
+                                        <p>Film 5</p>
+                                        <img class="svg" src="img/svg_arrow.svg">
+                                </div>
+                        </div>
+                </div>
+        </div>
+        <div class="content">
+                <div class="content-name">Actors</div>
+                <div class="content-items">
+                        <div class="content-media">
+                                <img class="media-img" src="https://im0-tub-ru.yandex.net/i?id=2dd21f2ec7d1d7119a7c509ac80b1139-l&n=13" alt="">
+                                <p class="media-p">Dolor est minima perspiciatis a molestias Ducimus eos voluptatibus aliquid architecto earum Animi inventore aperiam vitae saepe vel. Saepe perspiciatis laboriosam assumenda magni asperiores! Cumque assumenda mollitia soluta quae optio?</p>
+                        </div>
+								<div class="content-media">
+                                <img class="media-img" src="https://im0-tub-ru.yandex.net/i?id=2dd21f2ec7d1d7119a7c509ac80b1139-l&n=13" alt="">
+                                <p class="media-p">Dolor est minima perspiciatis a molestias Ducimus eos voluptatibus aliquid architecto earum Animi inventore aperiam vitae saepe vel. Saepe perspiciatis laboriosam assumenda magni asperiores! Cumque assumenda mollitia soluta quae optio?</p>
+                        </div>
+								<div class="content-media">
+                                <img class="media-img" src="https://im0-tub-ru.yandex.net/i?id=2dd21f2ec7d1d7119a7c509ac80b1139-l&n=13" alt="">
+                                <p class="media-p">Dolor est minima perspiciatis a molestias Ducimus eos voluptatibus aliquid architecto earum Animi inventore aperiam vitae saepe vel. Saepe perspiciatis laboriosam assumenda magni asperiores! Cumque assumenda mollitia soluta quae optio?</p>
+                        </div>
+                </div>
+        </div>
+
+        <script src="js/video.js"></script>
+        <script src="js/main.js"></script>
+</body>
+</html>
